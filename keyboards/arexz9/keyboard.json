@@ -5,7 +5,7 @@
     "bootloader": "rp2040",
     "processor": "RP2040",
     "firmware_format": "uf2",
-    "diode_direction": "ROW2COL",
+    "diode_direction": "COL2ROW",
 
     "url": "https://github.com/Arexz/qmk_firmware/tree/master/keyboards/arexz9",
 
@@ -20,8 +20,8 @@
     },
 
     "matrix_pins": {
-        "cols": ["GP4", "GP2", "GP1"],
-        "rows": ["GP27", "GP6", "GP26"],
+        "cols": ["GP26", "GP27", "GP6"],
+        "rows": ["GP1", "GP2", "GP4"]
     },
 
     "usb": {
